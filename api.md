@@ -6,13 +6,15 @@
 - **CreateInstance**
   - 功能：创建新的GPU实例
   
-### 查询实例
+### 实例列表
 - **DescribeInstanceStatus**
   - 功能：查询实例的简单状态信息
   
 - **DescribeInstances** 
   - 功能：查询实例的详细信息
-  
+
+### 实例详情
+
 - **DescribeInstanceAttribute**
   - 功能：查询指定实例的属性信息
 
@@ -37,7 +39,7 @@
   - 功能：创建自定义镜像
   - 说明：复制一个地域下的自定义镜像到其他地域，可实现跨地域部署ECS实例、跨地域复制ECS实例等目的
 
-### 查询镜像
+### 镜像列表
 - **DescribeImages**
   - 功能：查询镜像列表
   - 参数：
