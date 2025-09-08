@@ -6,7 +6,7 @@
 
 | 功能 | 接口API | 接口说明 |
 |------|---------|----------|
-| 创建实例 | [CreateInstance](https://next.api.aliyun.com/api/Ecs/2014-05-26/CreateInstance) | 创建新的GPU实例 |
+| 创建实例 | [RunInstances](https://next.api.aliyun.com/api/Ecs/2014-05-26/RunInstances) | 创建新的GPU实例 |
 | 查询实例状态 | [DescribeInstanceStatus](https://next.api.aliyun.com/api/Ecs/2014-05-26/DescribeInstanceStatus) | 查询实例的简单状态信息 |
 | 查询实例详细信息 | [DescribeInstances](https://next.api.aliyun.com/api/Ecs/2014-05-26/DescribeInstances) | 查询实例的详细信息 |
 | 查询实例属性 | [DescribeInstanceAttribute](https://next.api.aliyun.com/api/Ecs/2014-05-26/DescribeInstanceAttribute) | 查询指定实例的属性信息 |

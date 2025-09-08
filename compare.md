@@ -6,7 +6,7 @@
 | 获取实例列表 (GET `/open/instances`) | `QueryAvailableInstances` | 功能上基本一致，都用于查询用户可用的实例列表。 |
 | 获取单个实例信息 (GET `/open/instance/{id}`) | `DescribeInstances` | 通常通过各产品线的API（如ECS的`DescribeInstances`）实现。 |
 | 获取实例储存的镜像 (GET `/open/instance/{id}/images`) | `DescribeImages` | 镜像管理通常由各产品线的API（如ECS的`DescribeImages`）提供。 |
-| 部署实例 (POST `/open/instance/deploy`) | `CreateInstance` | 阿里云的`CreateInstance`不支持ECS和RDS系列产品的创建，且参数与API Playground的部署实例接口有所不同。 |
+| 部署实例 (POST `/open/instance/deploy`) | `RunInstances` |  用于批量创建ECS实例，支持自动启动、分配公网IP及设置自动释放时间。 |
 | 销毁实例 (POST `/open/instance/destroy`) | `ReleaseInstance` 和 `RefundInstance` | API Playground的“销毁实例”可能涵盖了释放和退订的综合操作。 |
 | 关机保留GPU (POST `/open/instance/shutdown`) | `StopInstance` | `StoppedMode=KeepCharging`  |
 | 关机释放GPU (POST `/open/instance/shutdown_release_gpu`) | `StopInstance` | `StoppedMode=StopCharging` 计算资源(vCPU、内存、GPU)、镜像 License 费用、固定公网 IP 的固定带宽模式暂停计费 |

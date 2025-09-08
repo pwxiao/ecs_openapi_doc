@@ -3,7 +3,7 @@
 ## GPU 主机管理
 
 ### 创建实例
-- **CreateInstance**
+- **RunInstances**
   - 功能：创建新的GPU实例
   
 ### 实例列表
