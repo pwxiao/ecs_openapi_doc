@@ -1,4 +1,4 @@
-# 阿里云镜像市场 API 接口文档
+# 阿里云ECS OpenAPI 接口文档
 > 以下列出的API均为[阿里云云服务器 ECS Open API](https://api.aliyun.com/api/Ecs/2014-05-26)
 ## GPU 主机管理
 
